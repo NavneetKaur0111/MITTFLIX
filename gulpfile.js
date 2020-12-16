@@ -2,7 +2,7 @@ const {src, dest, parallel, series} = require('gulp');
 const del = require('del');
 const concat = require('gulp-concat');
 const csso = require('gulp-csso');
-let uglify = require('gulp-uglify-es').default;
+const uglify = require('gulp-uglify-es').default;
 
 function cleanTask() {
   return del('dist/');
@@ -17,7 +17,7 @@ function stylesTask() {
   return src('src/styles/*.css')
     .pipe(csso())
     .pipe(concat('all.css'))
-    .pipe(dest('dist/style/'));
+    .pipe(dest('dist/styles/'));
 }
 
 function scriptTask() {
