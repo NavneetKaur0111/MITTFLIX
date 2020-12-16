@@ -1,0 +1,22 @@
+{
+  "name": "mittflix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NavneetKaur0111/MITTFLIX.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NavneetKaur0111/MITTFLIX/issues"
+  },
+  "homepage": "https://github.com/NavneetKaur0111/MITTFLIX#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
