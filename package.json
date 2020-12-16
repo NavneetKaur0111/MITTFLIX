@@ -18,6 +18,9 @@
   "homepage": "https://github.com/NavneetKaur0111/MITTFLIX#readme",
   "devDependencies": {
     "del": "^6.0.0",
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-uglify-es": "^2.0.0"
   }
 }
