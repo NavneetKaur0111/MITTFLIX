@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(29, 28, 28);
+}
+
+.logo{
+  width: 40%;
+  display: inline-block;
+}
+
+.logo img {
+  width: 60%;
+}
+
+.header {
+  padding: 2rem;
+}
+
+.header input {
+  caret-color: white;
+  margin: auto;
+  color: grey;
+  width: 70%;
+  border : 1px solid red;
+  border-radius: 1rem;
+  background-color:rgb(29, 28, 28);
+  padding: .5rem;
+}
+
+.header input:focus {
+  outline : none;
+}
+
+.header .search {
+  display: inline-block;
+  width: 50%;
+}
