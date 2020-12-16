@@ -3,7 +3,7 @@ const searchbar = document.querySelector("form");
 
 function getMovie(value  , attribute = 's') {
   return fetch(
-    `http://omdbapi.com/?apikey=89e9df8f&${attribute}=${value}&plot=short`
+    `https://omdbapi.com/?apikey=89e9df8f&${attribute}=${value}&plot=short`
   ).then((data) => data.json());
 }
 
