@@ -34,3 +34,56 @@ body {
   display: inline-block;
   width: 50%;
 }
+
+/* Movies */
+
+.main {
+  padding:2rem;
+}
+
+.movies {
+  padding: 0;
+  margin: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+.movies li {
+  list-style-type: none;
+  margin: 1%;
+  width: 18%;
+  position: relative;
+  overflow: hidden;
+}
+
+.movies li img {
+  transition: transform .4s;
+  width:100%;
+}
+
+.movies li:hover img {
+  filter:brightness(.5);
+  transform: scale(1.3);
+  transform-origin: 50% 50%;
+}
+
+.movies li:hover div {
+  opacity: 1;
+}
+
+
+.movies li div {
+  opacity: 0;
+  padding: 5px;
+  z-index: 100;
+  width: 100%;
+  color: white;
+  position: absolute;
+  top: 0px;
+  font-size: .6rem; 
+}
+
+.movies li div h2 {
+  font-size: .8rem;
+}
