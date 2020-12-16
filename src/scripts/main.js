@@ -38,6 +38,7 @@ ShowMovies('Batman');
 
 searchbar.addEventListener('submit', (event) => {
   event.preventDefault()
+  moviesListElement.innerHTML = "";
   const target = event.target;
   ShowMovies(target.firstElementChild.value)
   target.firstElementChild.value = "";
