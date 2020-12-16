@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/NavneetKaur0111/MITTFLIX#readme",
   "devDependencies": {
+    "del": "^6.0.0",
     "gulp": "^4.0.2"
   }
 }
