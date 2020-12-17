@@ -8,6 +8,9 @@ function getMovie(value  , attribute = 's') {
 }
 
 function createMoviePoster(currMovie) {
+  if(currMovie.Poster === 'N/A') {
+    currMovie.Poster = "https://m.media-amazon.com/images/M/MV5BYjU2ZGFiZjEtN2ZhOS00OTlmLTliOGMtOWM2NzQ2ZDI5M2U2XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg";
+  };
   moviesListElement.insertAdjacentHTML(
     "beforeend",
     `<li> 
