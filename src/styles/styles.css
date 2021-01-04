@@ -4,6 +4,10 @@ body {
 
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
 
+h1{
+  visibility: hidden;
+}
+
 :root {
   --font: 'Lato', sans-serif;
   --red: #dc1928;
@@ -116,4 +120,12 @@ body {
   color: #dc1a28;
   font-size: 19px;
   cursor: pointer;
+}
+
+.pagination button.hidden{
+  visibility: hidden;
+}
+
+.pagination a{
+  color: var(--red);
 }
